@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Student_IT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="surname" type="xs:string"/>
+		<xs:restriction course="xs:string">
+			<xs:enumeration value="undefined"/>
+          		<xs:enumeration value="first"/>
+          		<xs:enumeration value="second"/>
+			<xs:enumeration value="third"/>
+          		<xs:enumeration value="fourth"/>
+          		<xs:enumeration value="fifth"/>
+     		</xs:restriction>
+		<xs:element name="academic_perf" type="xs:int"/>
+		<xs:element name="missed_hours" type="xs:int"/>
+		<xs:element name="scholarship" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
