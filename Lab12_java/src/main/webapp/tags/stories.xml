@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<stories>
+    <story>
+        <name>We wanted light</name>
+        <author>Forgotten Writer</author>
+        <price>13</price>
+    </story>
+    <story>
+        <name>The story of the day</name>
+        <author>John Walters</author>
+        <price>100</price>
+    </story>
+</stories>
